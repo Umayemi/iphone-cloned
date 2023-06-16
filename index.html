@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="frame">
+        <div class="bg-image"></div>
+        <div id="notch"></div>
+        <div id="nav-bar">
+            <i class="fa fa-signal" aria-hidden="true"></i>
+            <i class="fa fa-wifi" aria-hidden="true"></i>
+            <i class="fa fa-battery-half" aria-hidden="true"></i>
+        </div>
+        <div class="lockscreen">
+            <div class="bg-image"></div>
+            <div id="time">
+            <h1>09:30</h1>
+            <p>Wednesday,June 14</p>
+            </div>
+            <div id="lock-nav">
+               <img src="icons/flashlight.png" alt="" id="flashlight"> 
+               <i class="fa fa-camera" aria-hidden="true"></i>
+            </div>
+            <div class="open-bar" onclick="swipe()">
+                <p id="bar-text">click me to open</p>
+                <div id="bar"></div>
+            </div>
+        </div>
+        <div class="app-wrap">
+        <div id="applications">
+            <div id="slide1" >
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/instagram.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">Instagram</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/messenger.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">Messenger</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/applestore.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">App Store</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/Telegram.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">Telegram</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/linkedin.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">linkedin</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/Netflix.png" alt="" class="icon-image netflix">
+                    </button>
+                    <label for="logo">Netflix</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/Safari.png" alt="" class="icon-image safari">
+                    </button>
+                    <label for="logo">Safari</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/message.png" alt="" class="icon-image message">
+                    </button>
+                    <label for="logo">Message</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/FaceTime.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">FaceTime</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/Weather.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">Weather</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/Camera.png" alt="" class="icon-image camera">
+                    </button>
+                    <label for="logo">Camera</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/Xbox.png" alt="" class="icon-image xbox">
+                    </button>
+                    <label for="logo">Xbox</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/Itune.png" alt="" class="icon-image itune">
+                    </button>
+                    <label for="logo">Itune</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/playstation.png" alt="" class="icon-image playstation">
+                    </button>
+                    <label for="logo">PlayStation</label>
+                </div>   
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/Spotify.png" alt="" class="icon-image sportify" >
+                    </button>
+                    <label for="logo">Spotify</label>
+                </div>
+                
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/Phone.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">Phone</label>
+                </div>
+            </div>
+            <div id="slide2">
+               
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/facebook.png" alt="" class="icon-image facebook">
+                    </button>
+                    <label for="logo">Facebook</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/whatsapp.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">Whatsapp</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/tiktok.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">Tiktok</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/twitter.jpg" alt="" class="icon-image twitter">
+                    </button>
+                    <label for="logo">Twitter</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/youtube.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">Youtube</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/snapchat.jpg" alt="" class="icon-image snapchat">
+                    </button>
+                    <label for="logo">Snapchat</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/github.png" alt="" class="icon-image github">
+                    </button>
+                    <label for="logo">Github</label>
+                </div>
+                <div class="icon">
+                    <button class="logo">
+                        <img src="icons/pinterest.png" alt="" class="icon-image">
+                    </button>
+                    <label for="logo">Pinterest</label>
+                </div>
+            </div>
+        </div>
+            <div id="pagination">
+                <div class="span1 active" onclick="left()"></div>
+                <div class="span1 " onclick="right()"></div>
+            </div>
+       
+        <div id="nav-bottom">
+            <div class="icon bottom">
+                <button class="logo">
+                    <img src="icons/Phone.png" alt="" class="icon-image">
+                </button>
+            </div>
+            <div class="icon bottom">
+                <button class="logo ">
+                    <img src="icons/Safari.png" alt="" class="icon-image safari">
+                </button>
+            </div>
+            <div class="icon bottom">
+                <button class="logo">
+                    <img src="icons/message.png" alt="" class="icon-image message">
+                </button>
+            </div>
+            <div class="icon bottom">
+                <button class="logo">
+                    <img src="icons/applestore.png" alt="" class="icon-image">
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
